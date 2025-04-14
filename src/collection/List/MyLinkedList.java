@@ -134,13 +134,17 @@ public class MyLinkedList<E> implements MyList<E> {
         return size;
     }
 
+    public void AI() {
+
+    }
+
 
     @Override
     public String toString() {
-        return "MyLinkedListV1{" +
-                "first=" + first +
-                ", size=" + size +
-                '}';
+        return
+                 first +
+                " , size= [" + size +
+                ']';
     }
 
 
