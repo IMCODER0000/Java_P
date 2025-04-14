@@ -1,0 +1,15 @@
+package genegic.animal;
+
+public class Cat extends Animal{
+
+    public Cat(String name, int size){
+        super(name, size);
+    }
+
+    @Override
+    public void sound() {
+        System.out.println("냐 옹  냐 옹");
+    }
+
+
+}
